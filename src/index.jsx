@@ -245,9 +245,8 @@ const Calendar = createReactClass({
   }
 });
 
-export default createReactClass({
-  displayName: 'DatePicker',
-
+const DatePicker =  createReactClass({
+  
   propTypes: {
     defaultValue: PropTypes.string,
     value: PropTypes.string,
@@ -720,3 +719,5 @@ export default createReactClass({
     </InputGroup>;
   }
 });
+
+export default DatePicker;
